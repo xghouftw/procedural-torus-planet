@@ -3,7 +3,7 @@
 ## Project description
 
 
-## Learning journey
+## Demo
 
 
 ## Running the project locally
@@ -37,3 +37,5 @@ Start development server on localhost
 ```sh
 npx vite
 ```
+
+## Learning journey
