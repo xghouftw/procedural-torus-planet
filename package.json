@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "fast-simplex-noise": "^4.0.0",
+    "perlin-noise": "^0.0.1",
+    "simplex-noise": "^4.0.3",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}

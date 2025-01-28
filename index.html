@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procedural Torus Planet</title>
+    <style>
+        body { margin: 0; overflow-y: auto; }
+        canvas {
+            width: 75%;
+            height: 500px;
+            display: block;
+            margin: 20px auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Procedural Torus Planet</h1>
+    <canvas id="canvas"></canvas>
+
+    <h2>Features</h2>
+    <ul>
+        <li>Simplex noise to procedurally displace geometry of torus</li>
+        <li>Differentiate biomes based on height displacement (ocean, sand dunes, forest, mountains)</li>
+        <li>Fractional brownian motion mountains and sinusoidal sand dunes</li>
+        <li>Blinn-Phong shading (ambient+diffuse+specular lighting)</li>
+        <li>Gradient between each biome based on height</li>
+        <li>Orbiting star as light source</li>
+        <li>Starry night background</li>
+    </ul>
+
+    <script type="module" src="./main.js"></script>
+
+</body>
+</html>
