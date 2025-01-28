@@ -1,10 +1,39 @@
-# HOW TO SET UP PROJECT IN LOCAL ENVIRONMENT
+# Procedural Torus Planet
 
+## Project description
+
+
+## Learning journey
+
+
+## Running the project locally
+
+Clone the repository:
+```sh
+git clone https://github.com/xghouftw/procedural-torus-planet
+cd procedural-torus-planet
 ```
-python3 -m venv venv
-venv\Scripts\activate.bat
 
-npm install --save three
-npm install --save-dev vite
+Setup python virtual environment
+```sh
+python3 -m venv venv
+```
+
+Activate the virtual environment (Windows)
+```sh
+venv\Scripts\activate.bat
+```
+Or on macOS,
+```sh
+source venv/bin/activate
+```
+
+Install dependencies
+```sh
+npm install
+```
+
+Start development server on localhost
+```sh
 npx vite
 ```
