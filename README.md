@@ -27,26 +27,26 @@ git clone https://github.com/xghouftw/procedural-torus-planet
 cd procedural-torus-planet
 ```
 
-Setup python virtual environment
+Setup python virtual environment:
 ```sh
 python3 -m venv venv
 ```
 
-Activate the virtual environment (Windows)
+Activate the virtual environment (Windows):
 ```sh
 venv\Scripts\activate.bat
 ```
-Or on macOS,
+Or on macOS:
 ```sh
 source venv/bin/activate
 ```
 
-Install dependencies
+Install dependencies:
 ```sh
 npm install
 ```
 
-Start development server on localhost
+Start development server on localhost:
 ```sh
 npx vite
 ```
